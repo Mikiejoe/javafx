@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="278.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studetregistration.RegisterController">
+      <Label layoutX="112.0" layoutY="24.0" text="Create Account" textFill="#ee0707">
+      <font>
+         <Font name="System Bold" size="13.0" />
+      </font></Label>
+      <Label layoutX="84.0" layoutY="66.0" text="Username" />
+      <TextField fx:id="uname" layoutX="143.0" layoutY="62.0" promptText="Username" />
+      <Label layoutX="84.0" layoutY="102.0" text="Password" />
+      <PasswordField fx:id="pass" layoutX="143.0" layoutY="98.0" promptText="Password" />
+      <Label layoutX="36.0" layoutY="140.0" text="Confirm Password" />
+      <PasswordField fx:id="cpass" layoutX="143.0" layoutY="136.0" promptText="Confirm Password" />
+      <Button fx:id="login" layoutX="71.0" layoutY="190.0" mnemonicParsing="false" text="Login" />
+      <Button fx:id="register" layoutX="205.0" layoutY="190.0" mnemonicParsing="false" text="Register" />
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="278.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studetregistration.HelloController">
+      <Label layoutX="112.0" layoutY="24.0" text="Create Account" />
+      <Label layoutX="84.0" layoutY="66.0" text="Username" />
+      <TextField layoutX="143.0" layoutY="62.0" />
+      <Label layoutX="84.0" layoutY="102.0" text="Password" />
+      <PasswordField layoutX="143.0" layoutY="98.0" />
+      <Label layoutX="36.0" layoutY="140.0" text="Confirm Password" />
+      <PasswordField layoutX="143.0" layoutY="136.0" />
+      <Button layoutX="71.0" layoutY="190.0" mnemonicParsing="false" text="Login" />
+      <Button layoutX="205.0" layoutY="190.0" mnemonicParsing="false" text="Register" />
+</AnchorPane>
